@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O meu primeiro formulário</title>
+</head>
+<body>
+    <form action="pagina.js"  method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="Nome" id="inome" placeholder="Digite o seu nome" required minlength="2" maxlength="30" autocomplete="additional-name">
+        
+        </p>
+        <p>
+            <label for="isobreNome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="isobreNome" required minlength="2" maxlength="30">
+        
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    
+</body>
+</html>

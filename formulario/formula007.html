@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form action="pagina.js" method="post" autocomplete="on">
+    <h1>Exemplo de Formulário</h1>
+    <p>
+        <label for="iest">Estado</label>
+        <select name="Estado" id="iest">
+         <optgroup label="Região Sul">
+             <option value="Ld" selected>Luanda</option>
+             <option value="Bg">Bengo</option>
+         </optgroup>
+
+          <optgroup label="Região Norte">
+              <option value="Zr">Zaire</option>
+               <option value="ug">Uíge</option>
+          </optgroup>
+        </select>
+    </p>
+
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="Prof" id="iprof" list="listProf">
+        <datalist id="listProf">
+            <option>Administrador</option>
+             <option>Contabilista</option>
+              <option>Desenvolvidor</option>
+               <option>Professor</option>
+<!--quando colocamos o value="ADM" por exemplo no datalist aparece a abreviação que está no value,e quando tiramos,aparece apénas a palavra completa-->
+
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagens</label> <br>
+        <textarea name="imsg" id="imsg" cols="" rows=""></textarea>
+    </p>
+
+   
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+ </form>
+</body>
+</html>

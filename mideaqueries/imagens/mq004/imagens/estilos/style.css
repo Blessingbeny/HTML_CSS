@@ -24,6 +24,11 @@ main{background-color: rgba(255, 255, 255, 0.724);
      margin-top: 20px;
      border-radius: 10px;
      padding: 10px;
+     
+}
+img{display: block;
+    margin: auto;
+
 }
 
 h1{text-align: center;
